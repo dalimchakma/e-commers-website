@@ -1,0 +1,95 @@
+/* section 1, cover */
+#home {
+    background-color: #FFF2CC;
+    border-radius: 30px;
+    margin-top: 5rem;
+    padding: 3rem;
+}
+.cover-heading {
+    font-size: 2.5rem;
+}
+.cover-peragrp {
+    font-size: 1rem;
+}
+.cover-img  img{
+    width: 100%;
+  }
+#product {
+    background-color: #fcf1d1;
+}
+/* Conatct form */
+.contact-form {
+    height: 50vh;
+    background-color: #fcf1d1;
+}
+.form {
+    padding: 5px 30px;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-right: none;
+}
+.form-btn {
+    padding: 8.5px 15px;
+    background-color: rgb(75, 43, 43);
+    color: white;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+.footer {
+    background-color: #4D4D4D;
+    color: white;
+}
+/* contain div none */
+.hide {
+    display: none;
+}
+.social-icon {
+    text-decoration: none;
+    font-size: 30px;
+}
+.facebook {
+    color: #4267B2;
+}
+.linkedin {
+    color: #0072b1;
+}
+.instagram {
+    color: #feda75;
+}
+.youtube {
+    color: #FF0000;
+}
+
+  /* Media query */
+     /* small device */
+     @media (max-width: 768px) {
+        .cover {
+            display: flex;
+            flex-direction: column-reverse;
+        }  
+        #home {
+            padding: 6% 0;     
+        }
+        .form {
+            padding: 5px 5px;
+        }
+        .form-btn {
+            padding: 8.5px 6px;
+        }
+       }
+/* media queary */
+/* medum device */
+@media (min-width: 768px) and (max-width: 992px) {
+    .hide {
+        display: block;
+    }
+    #home {
+        padding: 2%;
+    }
+    .cover-heading {
+        font-size: 1.5rem;
+    }
+    .cover-peragrp {
+        font-size: 1rem;
+    }
+}
